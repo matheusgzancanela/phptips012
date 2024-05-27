@@ -1,0 +1,30 @@
+{
+  "name": "matheusgzancanela/phptips012",
+  "description": "MANIPULANDO DADOS EM ARQUIVO CSV COM PHP | PHP TIPS #012",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus G. Zancanela",
+      "email": "matheusgzpessoal@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/matheusgzancanela"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.3",
+    "fzaninotto/faker": "1.8.0",
+    "league/csv": "9.3.0"
+  }
+}
